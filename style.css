@@ -1,0 +1,182 @@
+header{
+	background-color: #323232;
+	height:63px;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+
+}
+header img{
+	display: inline-block;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	padding-top: 0;
+	margin-top: 0;
+	z-index: 1;
+	left: 48%;
+
+}
+
+.top_menu{
+	margin: 0 auto;
+  text-align: center;  
+}
+.top_menu li{
+	display: inline-block;
+	
+	color: white;
+	 margin: 0 auto;
+   padding: 18px 30px;	
+   z-index: 2;  
+}
+header:after{
+	content: "";
+	width: 0px;
+  height: 0px;
+  border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 40px solid #323232;
+	position: absolute;
+	left: 50%;
+	top:60px;
+	bottom: 0;
+	transform: translateX(-50%);
+
+}
+span{
+	width: 23px;
+	height: 23px;
+	border-radius: 100%;
+	color: red;
+}
+
+
+/* шестиугольники  */
+.hexagon {
+	width: 180px;
+	height: 203px;
+	background: red;
+	position: relative;
+	display: inline-block;
+}
+.hexagon:before {
+	content: "";
+	position: absolute;
+	top: 0px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 90px solid #fff;
+	border-right: 90px solid #fff;
+	border-bottom: 54px solid transparent;
+}
+.hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: 0px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 90px solid #fff;
+	border-right: 90px solid #fff;
+	border-top: 54px solid transparent;
+}
+.hexagon img{
+	width: 180px;
+	height: 203px;
+
+}
+.row{
+	  text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    DISPLAY: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.row2{
+	text-align: center;
+	margin-top: 0px;
+}
+.row3{
+	text-align: center;
+	margin-top: 0px;
+}
+.designer{
+	position: relative;
+	
+	height: 340px;
+	background-color: #00B295;
+	z-index: 8;
+	padding: 68px 120px;
+	display: flex;
+}
+.designer h1{
+	color:#fff;
+	font-weight: 600;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.contetnt{
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 205px;
+	
+	text-align: center;
+}
+.content img{
+	padding: 40px 10px;
+	display: block;
+}
+.content p{
+	display: block;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 18px;
+}
+
+/* портфолио  */
+.hexagon1 {
+	  width: 180px;
+    height: 203px;
+    background: #F154;
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+.hexagon1:before {
+	content: "";
+	position: absolute;
+	top: 0px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 90px solid #00B295;
+	border-right: 90px solid #00B295;
+	border-bottom: 54px solid transparent;
+}
+.hexagon1:after {
+	content: "";
+	position: absolute;
+	bottom: 0px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 90px solid #00B295;
+	border-right: 90px solid #00B295;
+	border-top: 54px solid transparent;
+	
+  
+  
+}
+.hexagon1 img{
+	width: 180px;
+	height: 203px;
+	display: inline;
+	}
+	.social{
+		display: inline-block;
+	}
